@@ -1,0 +1,24 @@
+.categories{
+  /* border: 1px solid black; */
+  height: 100px;
+  width:100px;
+  margin: 5px 5px 5px 5px;
+  box-shadow: 0 0 2px #757373;
+  /* padding:auto; */
+  cursor: pointer;
+  background-color: #F46c23;
+  color:white;
+  border-radius: 30%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.categoriesContainer{
+    display: flex;
+    overflow-x: auto;
+}
+
+.categoriesContainer::-webkit-scrollbar 
+  {
+    display: none;
+  }

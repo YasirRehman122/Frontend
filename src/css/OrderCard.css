@@ -1,0 +1,13 @@
+.order{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.orderTitle{
+    margin: 5px 5px 0 5px;
+}
+
+.orderBody{
+    padding-top: 0px;
+    padding-bottom:2px;
+}

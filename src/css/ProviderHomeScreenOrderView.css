@@ -1,0 +1,23 @@
+.orderContainer{
+    background-color: white;
+    margin-top: 2vh;
+    height: 100%;
+    width: 100%;
+    /* overflow-y:auto; */
+    max-height: 85vh;
+}
+
+.orderListHeading{
+    text-align: center;
+    position: sticky;
+    color: white;
+    height: 3rem;
+    font-family: 'Segoe UI';
+    padding-top:5px;
+}
+
+.reviewHeadingContainer{
+    background-color: #f46c23;
+    border-radius: 10px;
+    align-items: center;
+}

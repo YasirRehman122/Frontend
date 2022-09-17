@@ -1,0 +1,36 @@
+#overallRatings {
+    text-align: center;
+}
+
+#feedback-main-container {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    height: 80vh;
+}
+
+#delivery-details-feedback {
+    margin-bottom: 30px;
+    overflow-y: auto;
+    height:65vh;
+}
+
+#delivery-address-container {
+    margin-bottom: 50px;
+}
+
+#feedback-submit-button{
+    width: 80%;
+    background-color: #f46c23;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    height: 7vh;
+    font-size: 20px;
+    margin: auto;
+}
+#submit-btn {
+    margin:auto;
+}

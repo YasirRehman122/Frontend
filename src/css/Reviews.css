@@ -1,0 +1,14 @@
+.reviewHeading{
+    text-align: center;
+    position: sticky;
+    color: white;
+    height: 3rem;
+    font-family: 'Segoe UI';
+    padding-top:5px;
+}
+
+.reviewHeadingContainer{
+    background-color: #f46c23;
+    border-radius: 10px;
+    align-items: center;
+}

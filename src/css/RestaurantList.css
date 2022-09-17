@@ -1,0 +1,28 @@
+.restaurantList {
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    /* margin-bottom: 20px; */
+  }
+
+  .restaurantList_Names {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .restaurantList_Names-y {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* overflow-x: auto */
+  }
+  
+  .restaurantList_Names-y::-webkit-scrollbar 
+  {
+    display: none;
+  }
+
+  .restaurantList_Names::-webkit-scrollbar 
+  {
+    display: none;
+  }
+

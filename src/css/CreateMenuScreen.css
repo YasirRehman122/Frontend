@@ -1,0 +1,172 @@
+#menuScreenMainContainer{
+    width: 90vw;
+    height: 80vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+
+}
+
+#categoryContainer{
+    border: 1px solid #F46C23;
+    width: 25vw;
+    height: 100%;;
+}
+
+#itemContainer{
+    border: 1px solid #F46C23;
+    width: 70vw;
+    margin-right: 3vw;
+    margin-left: 2vw;
+}
+
+.catItem{
+    cursor: pointer;
+}
+
+.cartItemPrice{
+    width: 3rem;
+    text-align: center;
+    margin-left:3px;
+}
+
+.itemName{
+    margin-left: 10px;
+    align-items: center;
+    width:40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itemDescription{
+    margin-left: 5px;
+    align-items: center;
+    margin-bottom: 0;
+    width: 50vw;
+}
+
+.itemPrice{
+    width: 15vw;
+}
+/* input{
+    border: none;
+} */
+
+.ingredients{
+    margin-left:10px;
+    margin-bottom:0;
+}
+
+.itemNameInput{
+    margin-left: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    color:black
+    /* width:50px */
+}
+
+.itemDescriptionInput{
+    text-align:center;
+}
+
+#menuCatHeading{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#itemHeadingContainer{
+    /* text-align: left; */
+    /* margin-top: 10px; */
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    box-shadow: 0 1px 2px #757373;
+    padding: 5px 10px 5px 10px;
+    background-color: #F46C23;
+}
+
+#itemHeading{
+    width: 20vw;
+    display: flex;
+    position: sticky;
+    color: white;
+}
+
+.catDropDown{
+    background-color: #F46C23;
+    border: none;
+}
+
+.catDropDown:hover{
+    background-color: #ff5900;
+    border: none;
+}
+
+.catDropDown:focus{
+    background-color: #ff5900;
+    border: none;
+    outline:none;
+}
+
+.itemDropDown{
+    background-color: white;
+    color: black;
+    border: none;
+    /* margin-top:5px; */
+    margin-bottom:0;
+    /* padding-top:5px; */
+}
+
+.itemDropDown:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.itemDropDown:focus{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.cardContainer{
+    margin: 5px 10px 5px 10px;
+}
+
+#addItemBtn{
+    color: #F46C23;
+    background-color: white;
+    border: none;
+}
+
+#addItemBtn:hover{
+    color: #ff5900;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.ingrInput{
+    width:300px;
+}
+
+.cardEditItemBtn{
+    color: white;
+    background-color: #F46C23;
+    border: none;
+}
+
+.cardEditItemBtn:hover{
+    color: white;
+    background-color: #F46C23;
+    border: none;
+}
+
+.cardEditItemBtn:focus{
+    color: white;
+    background-color: #F46C23;
+    border: none;
+}

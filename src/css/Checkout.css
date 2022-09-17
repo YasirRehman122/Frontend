@@ -1,0 +1,53 @@
+#checkout-main-container {
+    width: 30%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+#delivery-details {
+    margin-bottom: 30px;
+}
+
+#delivery-address-container {
+    margin-bottom: 50px;
+}
+
+#payment-method-container {}
+
+#delivery-row {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+#checkoutItem {
+    text-align: center;
+}
+
+#checkout-submit-button {
+    background-color: #f46c23;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    height: 7vh;
+    font-size: 20px;
+    width: 100%;
+}
+
+#delivery-address-box {
+    border: 1px;
+    border-color: #f46c23;
+}
+
+#address-box {
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f46c23;
+}
+
+#submit-btn {
+    margin-top: 10px;
+}

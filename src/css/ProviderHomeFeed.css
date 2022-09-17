@@ -1,0 +1,122 @@
+.providerMainContainer{
+    display: flex;
+    flex: 3 1 0;
+    height: 100%;
+    padding: 0;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.leftProContainer{
+    width: 60vw;
+    padding: 0%;
+    margin-left: 1%;
+}
+
+.rightProContainer{
+    width: 100%;
+    padding: 0%;
+    margin-left: 1%;
+}
+
+.providerInformationContainer{
+    margin-top: 2vh;
+    padding-top: 2vh;
+    height: 25vh;
+    /* box-shadow: 2px 1px 1px #757373; */
+    background-color: white;
+}
+
+.providerInfoTitle{
+    color: #f46c23;
+}
+
+#editInfoButton{
+    background-color: white;
+    color: #f46c23;
+    border: none;
+    font-size: 1rem;
+    max-height: 50vh;
+    max-width: 40vw;
+}
+
+.providerInfoRowSetter{
+    flex: 3 1 auto;
+}
+
+.providerInfoBottmDivs{
+    /* width: 13vw; */
+    padding: 5px 15px 0px 15px;
+    margin: 0 10px 5px 10px;
+    background-color: white;
+}
+
+.orderDetailsView{
+    margin-top:2vh;
+    height: 59vh;
+}
+
+.orderDetailViewCard{
+    height: 100%
+}
+
+.orderItemsView{
+    margin: 0 5px 0 5px;
+}
+
+.itemHeading{
+    font-weight: bold;
+    color: black;
+}
+
+.orderItemList{
+    margin-top:0;
+    padding-top: 0;
+}
+
+.orderItemListContainer{
+    overflow-x: auto;
+    
+}
+
+.ingList{
+    overflow-y: auto;
+}
+
+#markCompleteButton{
+    background-color: #f46c23;
+    border: none;
+    color: white;
+}
+
+
+#markCompleteButton:focus{
+    background-color: #dba385;
+    border: none;
+    color: white;
+}
+
+#markCompleteButton:hover{
+    background-color: #f35500;
+    border: none;
+    color: white;
+}
+
+#refreshButton{
+    background-color: #f46c23;
+    border: none;
+    color: white;
+}
+
+
+#refreshButton:focus{
+    background-color: #dba385;
+    border: none;
+    color: white;
+}
+
+#refreshButton:hover{
+    background-color: #f35500;
+    border: none;
+    color: white;
+}

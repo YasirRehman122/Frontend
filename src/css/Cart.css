@@ -1,0 +1,71 @@
+.rightContainer {
+    flex-grow: 1;
+    height: 100%;
+    justify-content: center;
+    position:fixed;
+    right: 0;
+    width:30vw;
+    margin-top: 50px;
+    box-shadow: -2px 0px 5px darkgrey;
+    z-index: 100;
+}
+
+#cartButton {
+    background-color: #f46c23;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    height: 7vh;
+    font-size: 20px;
+    width: 100%;
+}
+
+#cardBody {
+    justify-content: center;
+    place-items: center center;
+}
+
+#card {
+    justify-content: center;
+    border-radius:0;
+    border: none;
+    margin: 0;
+}
+
+.cardTitle {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#divider {
+    margin-bottom: 10px;
+}
+
+#cartAmount {
+    text-align: center;
+}
+
+#addQuantityButtons {
+    background-color: #f46c23;
+    border: 0;
+    border-radius: 10%;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+#subtractQuantityButtons {
+    border: 0;
+    border-radius: 10%;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+#cartItemContainer {
+    text-align: center;
+    overflow-y: auto;
+    max-height: 40vh;
+}

@@ -1,0 +1,12 @@
+.roomfac {
+    display: flex;
+    /* width: 50%; */
+    max-width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.mainContainer{
+    width: 50vw;
+    margin:auto;
+}

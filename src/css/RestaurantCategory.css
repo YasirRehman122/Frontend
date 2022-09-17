@@ -1,0 +1,50 @@
+.restaurant-menu {
+    margin-top: 2%;
+}
+
+#categoryNavBar {
+    background-color: white;
+    box-shadow: 2px 0px 20px darkgrey;
+    z-index: 2;
+    position: sticky;
+}
+
+.vr {
+    color: white;
+    width: 3px;
+}
+
+.navBarContent {
+    /* color: #f46c23; */
+    color: black;
+    z-index: 100;
+}
+
+#meniItemDescription {
+    font-size: smaller;
+}
+
+#addItem {
+    background-color: #f46c23;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+#itemQuantity {
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: bold
+}
+
+.itemNameTitle{
+    font-weight: bold;
+    padding: 0;
+    margin: 0
+}
+
+/* .restaurant-category{
+    box-shadow: 0px 2px 20px darkgrey;
+} */

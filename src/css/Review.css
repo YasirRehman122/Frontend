@@ -1,0 +1,16 @@
+.review{
+    margin-bottom: 10px;
+}
+
+.reviewTitle{
+    margin: 5px 5px 0 5px;
+}
+
+.reviewBody{
+    padding-top: 0px;
+    padding-bottom:2px;
+}
+
+.reviewContainer{
+    max-height: 2rem;
+}

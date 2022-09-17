@@ -1,0 +1,30 @@
+.restaurantCard {
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  flex: 0 0 15em;
+  box-shadow: 0 0 2px #757373;
+  padding-bottom: 3px;
+  cursor: pointer;
+  /* border-radius: 5px; */
+  
+}
+
+.restaurantCard > div {
+  margin-top: 10px;
+  padding-left: 10px;
+  line-height:0.5;
+}
+
+.test { 
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  /* width: 10px;  */
+  /* height: 1.2em;  */
+  white-space: nowrap;
+}
+
+img {
+  /* border-radius: 5px; */
+  height: 60%;
+}

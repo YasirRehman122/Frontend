@@ -1,0 +1,13 @@
+#main-container {
+    display: flex;
+    place-items: center center;
+    width: 100%;
+  }
+  
+  .leftContainer {
+    flex-grow: 1;
+    height: 100%;
+    width: 50vw;
+    max-width: 70vw;
+    flex-wrap: wrap;
+  }

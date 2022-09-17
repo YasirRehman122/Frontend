@@ -1,0 +1,63 @@
+#itemDp{
+    height: 35vh;
+}
+
+#dropdown-container{
+margin: 2px 5px 2px 5px;
+}
+
+#addToCartButton{
+    background-color: #F46C23;
+    border: 0px;
+    width: 10vw;
+}
+
+#dropdownButton{
+    background-color: #F46C23;
+    border: 0px;
+    margin-bottom: 10px;
+}
+.exludedIng{
+    align-items: center;
+}
+
+#exludedIngButton{
+    background-color: #F46C23;
+    border: 0px;
+    margin: 0 3px 5px 3px;
+}
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+ }
+
+#exludedIngIcon{
+    margin-right: 5px;
+    color: white
+}
+
+#itemViewContainer{
+    height: auto;
+    width: 150%;
+}
+
+.itemViewBody{
+    height: 200px;
+}
+
+.card-body{
+    flex: 0 1 auto;
+}
+
+.heading{
+    color: #F46C23
+}
+
+#okButton{
+    background-color: #F46C23;
+    border: 0;
+}
